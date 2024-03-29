@@ -7,8 +7,13 @@ function func() {
             lock = true;
             for (let i = 0; i < 9; i++) {
                 if (i == 0 || i == 1 || i == 2) {
-                    document.getElementById(i).style.fontSize = "70px";
+                    if(screen.width>400){
+                        document.getElementById(i).style.fontSize = "70px";
                 }
+                    else{
+                        document.getElementById(i).style.fontSize = "35px";
+                    }
+            }
                 else {
                     document.getElementById(i).style.opacity = "0";
                 }
@@ -19,7 +24,12 @@ function func() {
             lock = true;
             for (let i = 0; i < 9; i++) {
                 if (i == 3 || i == 4 || i == 5) {
+                    if(screen.width>400){
                     document.getElementById(i).style.fontSize = "70px";
+                    }
+                        else{
+                            document.getElementById(i).style.fontSize = "35px";
+                        }
                 }
                 else {
                     document.getElementById(i).style.opacity = "0";
@@ -30,7 +40,12 @@ function func() {
             lock = true;
             for (let i = 0; i < 9; i++) {
                 if (i == 6 || i == 7 || i == 8) {
+                      if(screen.width>400){
                     document.getElementById(i).style.fontSize = "70px";
+                }
+                    else{
+                        document.getElementById(i).style.fontSize = "35px";
+                    }
                 }
                 else {
                     document.getElementById(i).style.opacity = "0";
@@ -41,7 +56,12 @@ function func() {
             lock = true;
             for (let i = 0; i < 9; i++) {
                 if (i == 0 || i == 3 || i == 6) {
+                      if(screen.width>400){
                     document.getElementById(i).style.fontSize = "70px";
+                }
+                    else{
+                        document.getElementById(i).style.fontSize = "35px";
+                    }
                 }
                 else {
                     document.getElementById(i).style.opacity = "0";
@@ -52,7 +72,12 @@ function func() {
             lock = true;
             for (let i = 0; i < 9; i++) {
                 if (i == 1 || i == 4 || i == 7) {
+                      if(screen.width>400){
                     document.getElementById(i).style.fontSize = "70px";
+                }
+                    else{
+                        document.getElementById(i).style.fontSize = "35px";
+                    }
                 }
                 else {
                     document.getElementById(i).style.opacity = "0";
@@ -63,7 +88,12 @@ function func() {
             lock = true;
             for (let i = 0; i < 9; i++) {
                 if (i == 2 || i == 5 || i == 8) {
+                      if(screen.width>400){
                     document.getElementById(i).style.fontSize = "70px";
+                }
+                    else{
+                        document.getElementById(i).style.fontSize = "35px";
+                    }
                 }
                 else {
                     document.getElementById(i).style.opacity = "0";
@@ -74,7 +104,12 @@ function func() {
             lock = true;
             for (let i = 0; i < 9; i++) {
                 if (i == 0 || i == 4 || i == 8) {
+                      if(screen.width>400){
                     document.getElementById(i).style.fontSize = "70px";
+                }
+                    else{
+                        document.getElementById(i).style.fontSize = "35px";
+                    }
                 }
                 else {
                     document.getElementById(i).style.opacity = "0";
@@ -85,7 +120,12 @@ function func() {
             lock = true;
             for (let i = 0; i < 9; i++) {
                 if (i == 2 || i == 4 || i == 6) {
+                      if(screen.width>400){
                     document.getElementById(i).style.fontSize = "70px";
+                }
+                    else{
+                        document.getElementById(i).style.fontSize = "35px";
+                    }
                 }
                 else {
                     document.getElementById(i).style.opacity = "0";
