@@ -14,6 +14,7 @@ section {
     font-size: xx-large;
     font-weight: 600;
     -webkit-text-stroke: 1px gold; 
+    text-align: center;
 }
 .box {
     align-items: center;
